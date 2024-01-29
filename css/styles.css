@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: DM Sans;
+}
+
+a {
+    text-decoration: none;
+    color: #087f5b;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+}
+
+.header {
+    width: 100%;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.header .logo {
+    margin-bottom: 4rem;
+}
+
+.header .title {
+    color: #212529;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+
+.header .subtitle {
+    color: #495057;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+
+.btn-submit {
+    height: 3.5rem;
+    width: 100%;
+    padding: 0px 1.5rem;
+    border-radius: 16px;
+    background: #087f5b;
+    margin-top: 1.5rem;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: ease 0.2s;
+}
+
+.btn-submit:hover {
+    background: #0a936a;
+}
+
+/* Estilo para a div de paginação */
